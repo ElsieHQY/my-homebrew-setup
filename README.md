@@ -22,4 +22,6 @@ brew install --cask messenger
 brew install --cask visual-studio-code
 brew install git
 brew install bash-git-prompt
+brew install flutter
+brew install --cask android-studio
 ```
