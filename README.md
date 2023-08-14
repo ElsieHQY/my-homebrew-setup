@@ -21,7 +21,20 @@ brew install --cask skype
 brew install --cask messenger
 brew install --cask visual-studio-code
 brew install git
-brew install bash-git-prompt
+brew install bash-git-prompt (cancel: using zsh will create conflict)
+brew install romkatv/powerlevel10k/powerlevel10k
 brew install node
 brew install --cask notion
+```
+The following steps are commands for installing romkatv/powerlevel10k/powerlevel10k :
+```
+sudo find / -name powerlevel10k.zsh-theme 2>/dev/null
+// in my case : /opt/homebrew/Cellar/powerlevel10k/1.19.0/powerlevel10k.zsh-theme
+nano ~/.zshrc
+source /opt/homebrew/Cellar/powerlevel10k/1.19.0/powerlevel10k.zsh-theme
+// control + O
+// enter
+// control + x
+// after doing these commands, start
+source ~/.zshrc
 ```
