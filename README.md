@@ -35,6 +35,6 @@ source /opt/homebrew/Cellar/powerlevel10k/1.19.0/powerlevel10k.zsh-theme
 // control + O
 // enter
 // control + x
-// after doing these commands, will start an arrangement
+// after doing these commands, will start a configuration wizard
 source ~/.zshrc
 ```
